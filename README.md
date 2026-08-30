@@ -59,6 +59,15 @@ make clean  # remove build artifacts
 make release  # build with -O2 optimizations
 ```
 
+No CMake? Compile directly with g++ (C++17):
+
+```sh
+g++ -std=c++17 -Iinclude src/team.cpp src/main.cpp -o mission
+./mission        # run from the folder that holds teams.txt
+```
+
+The program reads/writes `teams.txt` in the current directory, so run it from the project root to load the sample data.
+
 ## Project Structure
 
 ```
