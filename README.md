@@ -12,9 +12,9 @@ hand-written dynamic array (no `std::vector`), per the mission brief.
 | --- | --- | --- |
 | Sinsideth Sithikar | Memory Guardian | Owner pointer, size/capacity, `realloc`, cleanup |
 | Limsok Kelly | Record Architect | `Team` design, validation, complete-record movement |
-| Prak Dararith | Test Captain | Expected results, boundary cases, test evidence |
-| Yem Kanhnalida | UX | Menu, prompts, input handling, output formatting, feedback messages |
-| Eng Samrith | Integration Captain / Presenter | Menu wiring, function connections, file flow, demo |
+| Yem Kanhnalida | Test Captain | Expected results, boundary cases, test evidence |
+| Eng Samrith | UX | Menu, prompts, input handling, output formatting, feedback messages |
+| Prak Dararith | Integration Captain / Presenter | Menu wiring, function connections, file flow, demo |
 
 
 ## Data Model and File Format
