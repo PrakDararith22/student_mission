@@ -1,5 +1,8 @@
 build/
 .cache/
+TEAM_INSTRUCTIONS.md
+transcript.txt
+evidence.txt
 compile_commands.json
 *.o
 *.a
