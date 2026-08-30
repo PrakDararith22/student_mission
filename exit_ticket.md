@@ -20,3 +20,8 @@ Individual exit ticket: one invariant, one bug found, one next improvement.
 - **Invariant:** only the logical records are displayed, so the empty list shows "No teams registered yet." instead of garbage rows.
 - **Bug found:** long team names misaligned the leaderboard columns (fixed with fixed-width `setw`).
 - **Next:** add a delete-confirmation prompt.
+
+## Prak Dararith (Integration Captain / Presenter)
+- **Invariant:** menu choices 1-5 each wire to exactly one mutating function and the array is freed exactly once on exit; there is no path that reads or writes a record outside `0..size-1`.
+- **Bug found:** a save-and-exit could drop recent edits if `teams.txt` could not be reopened — the failure was only reported as a warning (fixed by loading the saved file flow path so reload/re-demo always sees the same logical records).
+- **Next:** add an automated end-to-end demo script that drives the menu and verifies save/reload in a single run.
