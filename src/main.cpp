@@ -8,6 +8,7 @@
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
+#include <iomanip>
 #include <iostream>
 
 #include "team.h"
@@ -18,11 +19,17 @@ void displayTeams(const Team teams[], int size)
         std::cout << "No teams registered yet.\n";
         return;
     }
-    std::cout << "ID\tNAME\t\t\t\t\tSCORE\tMISSIONS\n";
+    std::cout << std::left
+              << std::setw(6) << "ID"
+              << std::setw(30) << "NAME"
+              << std::setw(8) << "SCORE"
+              << "MISSIONS\n";
     std::cout << "------------------------------------------------------------\n";
     for (int i = 0; i < size; i++)
-        std::cout << teams[i].id << "\t" << teams[i].name << "\t\t\t\t\t"
-                  << teams[i].score << "\t" << teams[i].missions << "\n";
+        std::cout << std::setw(6) << teams[i].id
+                  << std::setw(30) << teams[i].name
+                  << std::setw(8) << teams[i].score
+                  << teams[i].missions << "\n";
 }
 
 void displayTeam(const Team *t)
@@ -59,6 +66,10 @@ int main(void)
     int choice;
 
     loadTeams("teams.txt", &teams, &size, &capacity);
+
+    std::cout << "===========================================\n"
+              << "        CAMPUS QUEST LEADERBOARD\n"
+              << "===========================================\n";
 
     do {
         std::cout << "\n=== CAMPUS QUEST LEADERBOARD ===\n"
