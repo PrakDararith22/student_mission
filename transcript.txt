@@ -1,0 +1,236 @@
+
+########## STAGE A: fresh run - T1,T2,T3,T4,T5,T6,T7,T8 ##########
+===========================================
+        CAMPUS QUEST LEADERBOARD
+===========================================
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: No teams registered yet.
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: Team ID: Team name: Team 101 registered.
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: Team ID: Team name: Team 102 registered.
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: Team ID: Team name: Team 103 registered.
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: ID    NAME                          SCORE   MISSIONS
+------------------------------------------------------------
+101   Byte Bandits                  0       0
+102   Pointer Pirates               0       0
+103   Null Pointers                 0       0
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: Team ID: Team name: Registration failed: invalid or duplicate ID.
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: Team ID: Mission points (1-100): Failed: points must be 1-100 and ID must exist.
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: Team ID: Mission points (1-100): Failed: points must be 1-100 and ID must exist.
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: Team ID: Mission points (1-100): Points recorded.
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: Team ID: Mission points (1-100): Points recorded.
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: Team ID: ID not found.
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: Team ID: Team 101 removed.
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: Team ID: Team 103 removed.
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: Team ID: Team name: Team 201 registered.
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: Team ID: Team name: Team 202 registered.
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: Team ID: Mission points (1-100): Points recorded.
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: Team ID: Mission points (1-100): Points recorded.
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: ID    NAME                          SCORE   MISSIONS
+------------------------------------------------------------
+102   Pointer Pirates               50      1
+201   Team A                        40      1
+202   Team B                        40      1
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: 
+########## STAGE B: second launch - T10 (save/reload persistence) ##########
+===========================================
+        CAMPUS QUEST LEADERBOARD
+===========================================
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: ID    NAME                          SCORE   MISSIONS
+------------------------------------------------------------
+102   Pointer Pirates               50      1
+201   Team A                        40      1
+202   Team B                        40      1
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: 
+########## STAGE C: malformed teams.txt - T9 ##########
+===========================================
+        CAMPUS QUEST LEADERBOARD
+===========================================
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: ID    NAME                          SCORE   MISSIONS
+------------------------------------------------------------
+301   Good Team                     50      1
+304   Fine Team                     20      2
+
+=== CAMPUS QUEST LEADERBOARD ===
+1. Register a team
+2. Record mission points
+3. Find a team
+4. Remove a team
+5. Show leaderboard
+6. Save and exit
+Choose: 
+########## GAUNTLET COMPLETE ##########
